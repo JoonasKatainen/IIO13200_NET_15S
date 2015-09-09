@@ -1,12 +1,30 @@
-﻿<Window x:Class="IIO13200_15S.MainWindow"
+﻿<Window x:Class="Tehtava1.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:IIO13200_15S"
+        xmlns:local="clr-namespace:Tehtava1"
         mc:Ignorable="d"
-        Title="Tehtävä 1: K-S Ikkunat Oy" Height="350" Width="525" FontSize="18">
-    <Grid>
-        
+        Title="MainWindow" Height="350" Width="700">
+    <Grid HorizontalAlignment="Right" Width="596" Margin="0,0,-8,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="157*"/>
+            <RowDefinition Height="163*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="button" Content="Laske pinta-ala ja piiri" HorizontalAlignment="Left" Margin="372,7,0,0" VerticalAlignment="Top" Width="144" Cursor="Hand" IsDefault="True" Click="button_Click" Background="#FFBDB9B9" BorderBrush="#FF707070" Height="24" Grid.Row="1"/>
+        <TextBox x:Name="leveystext" HorizontalAlignment="Left" Height="23" Margin="434,58,0,0" TextWrapping="Wrap" Text="1200" VerticalAlignment="Top" Width="120" PreviewTextInput="textBox_PreviewTextInput"/>
+        <TextBox x:Name="kleveystext" HorizontalAlignment="Left" Height="23" Margin="434,114,0,0" TextWrapping="Wrap" Text="45" VerticalAlignment="Top" Width="120" PreviewTextInput="textBox_PreviewTextInput"/>
+        <TextBox x:Name="korkeustext" HorizontalAlignment="Left" Height="23" Margin="434,86,0,0" TextWrapping="Wrap" Text="900" VerticalAlignment="Top" Width="120" PreviewTextInput="textBox_PreviewTextInput"/>
+        <TextBlock x:Name="tulosArea" HorizontalAlignment="Left" Margin="444,49,0,0" TextWrapping="Wrap" Text="tulos1" VerticalAlignment="Top" Height="21" Width="54" OpacityMask="#FF101444" Background="#FF01CBF7" RenderTransformOrigin="0.651,-0.007" Grid.Row="1"/>
+        <TextBlock x:Name="tulosKpiiri" HorizontalAlignment="Left" Margin="444,75,0,0" TextWrapping="Wrap" Text="tulos2" VerticalAlignment="Top" Background="#FF01CBF7" Height="21" Width="54" Grid.Row="1"/>
+        <TextBlock x:Name="tulosKArea" HorizontalAlignment="Left" Margin="444,101,0,0" TextWrapping="Wrap" Text="tulos3" VerticalAlignment="Top" Background="#FF01CBF7" Height="21" Width="54" Grid.Row="1"/>
+        <Label x:Name="label" Content="Ikkunan Leveys (L):" HorizontalAlignment="Left" Margin="310,58,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="Ikkunan Korkeus (H):" HorizontalAlignment="Left" Margin="300,84,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.411,1.681"/>
+        <Label x:Name="label_Copy1" Content="Karmipuun leveys (W):" HorizontalAlignment="Left" Margin="291,110,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy2" Content="Ikkunan pinta-ala:" HorizontalAlignment="Left" Margin="315,44,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label x:Name="label_Copy3" Content="Karmin piiri:" HorizontalAlignment="Left" Margin="346,70,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label x:Name="label_Copy4" Content="Karmin pinta-ala:" HorizontalAlignment="Left" Margin="319,96,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Rectangle Fill="#FF01CBF7" HorizontalAlignment="Left" Height="184" Margin="-93,84,0,0" Stroke="#FF6C1928" VerticalAlignment="Top" Width="367" StrokeThickness="6" Grid.RowSpan="2"/>
+
     </Grid>
 </Window>
