@@ -12,3 +12,6 @@ E:\Ohjelmat\Visual Studio 2015\Projects\NET-tehtavat\Tehtava1\obj\Debug\Tehtava1
 E:\Ohjelmat\Visual Studio 2015\Projects\NET-tehtavat\Tehtava1\obj\Debug\Tehtava1.csproj.GenerateResource.Cache
 E:\Ohjelmat\Visual Studio 2015\Projects\NET-tehtavat\Tehtava1\obj\Debug\Tehtava1.exe
 E:\Ohjelmat\Visual Studio 2015\Projects\NET-tehtavat\Tehtava1\obj\Debug\Tehtava1.pdb
+D:\H3248\IIO13200_NET_15S\Tehtava1\bin\Debug\Tehtava1.exe.config
+D:\H3248\IIO13200_NET_15S\Tehtava1\obj\Debug\Tehtava1.exe
+D:\H3248\IIO13200_NET_15S\Tehtava1\obj\Debug\Tehtava1.pdb

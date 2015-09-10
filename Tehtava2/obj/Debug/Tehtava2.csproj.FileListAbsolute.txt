@@ -1,0 +1,14 @@
+D:\H3248\IIO13200_NET_15S\Tehtava2\bin\Debug\Tehtava2.exe.config
+D:\H3248\IIO13200_NET_15S\Tehtava2\obj\Debug\Tehtava2.csprojResolveAssemblyReference.cache
+D:\H3248\IIO13200_NET_15S\Tehtava2\obj\Debug\MainWindow.g.cs
+D:\H3248\IIO13200_NET_15S\Tehtava2\obj\Debug\App.g.cs
+D:\H3248\IIO13200_NET_15S\Tehtava2\obj\Debug\Tehtava2_MarkupCompile.cache
+D:\H3248\IIO13200_NET_15S\Tehtava2\obj\Debug\Tehtava2_MarkupCompile.lref
+D:\H3248\IIO13200_NET_15S\Tehtava2\bin\Debug\Tehtava2.exe
+D:\H3248\IIO13200_NET_15S\Tehtava2\bin\Debug\Tehtava2.pdb
+D:\H3248\IIO13200_NET_15S\Tehtava2\obj\Debug\MainWindow.baml
+D:\H3248\IIO13200_NET_15S\Tehtava2\obj\Debug\Tehtava2.g.resources
+D:\H3248\IIO13200_NET_15S\Tehtava2\obj\Debug\Tehtava2.Properties.Resources.resources
+D:\H3248\IIO13200_NET_15S\Tehtava2\obj\Debug\Tehtava2.csproj.GenerateResource.Cache
+D:\H3248\IIO13200_NET_15S\Tehtava2\obj\Debug\Tehtava2.exe
+D:\H3248\IIO13200_NET_15S\Tehtava2\obj\Debug\Tehtava2.pdb
